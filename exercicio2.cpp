@@ -7,8 +7,8 @@ using namespace std;
 
 int main(){
     int valor, vsorteado;
-    srand(time(NULL));
-    vsorteado = (rand()%100)+1; //Retorna valor aleatorio de 0 a 100
+    srand(time(NULL));  //Gera valores diferentes para o sorteio
+    vsorteado = (rand()%100)+1; //Retorna valor aleatorio de 1 a 100
 
     do{
         printf("Digite um valor: \n");
